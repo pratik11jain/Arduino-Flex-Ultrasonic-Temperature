@@ -33,7 +33,7 @@
         distanceCm = duration * 0.034 / 2;
         distanceInch = duration * 0.0133 / 2;
         value = analogRead(flexPin);         //Read and save analog value from potentiometer
-        if (value < 940 && valueChanged == 0) {
+        if (value < 970 && valueChanged == 0) {
             if (ctm == 0) {
                 ctm = 1;
                 valueChanged = 1;
